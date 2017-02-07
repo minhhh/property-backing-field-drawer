@@ -1,0 +1,22 @@
+{
+  "name": "property-backing-field-drawer",
+  "version": "0.0.3",
+  "description": "Core plugin code to bootstrap your Unity project",
+  "main": "index.js",
+  "author": "Ha.Minh",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "Assets"
+  ],
+  "scripts": {
+    "postinstall": "node index.js",
+    "unity": "rm -fr node_modules && DIR=`pwd` yarn install --flat --prod"
+  },
+  "dependencies": {
+    "minimist": "ssh://github.com/substack/minimist.git#0.0.8",
+    "mkdirp": "ssh://github.com/substack/node-mkdirp.git#0.5.1",
+    "ncp": "ssh://github.com/AvianFlu/ncp.git#v2.0.0"
+  }
+}
+
