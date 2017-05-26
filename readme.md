@@ -8,6 +8,10 @@ To include Property Backing Field Drawer into your project, you can use npm meth
 
 ## Changelog
 
+**0.0.2**
+
+* Fix wrong `package.json`
+
 **0.0.1**
 
 * Initial commit
